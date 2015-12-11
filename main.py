@@ -186,7 +186,7 @@ class TaskBarIcon(wx.TaskBarIcon):
     def help(self, event):
         dlg = wx.MessageDialog(None, "填写账户密码后点击连接(默认5分钟刷新一次)，点击转向github----by range", "Help", wx.YES_NO | wx.ICON_QUESTION)
         if dlg.ShowModal() == wx.ID_YES:
-            webbrowser.open("http://range.pw")  
+            webbrowser.open("https://github.com/rangeme/NPU_NetBreaker/")  
         dlg.Destroy()
 
     def on_exit(self, event):
