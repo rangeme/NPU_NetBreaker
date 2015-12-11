@@ -1,6 +1,8 @@
 # NPU_NetBreaker
 This is a script automaticly authorize the NPU iMC portal 
 
+The binary file is in: 
+
 
 This is the basic version. You can edit your account and you password. It will store them in "c:/users/Your computer/.network/config.conf" with basic encrypt.
 
